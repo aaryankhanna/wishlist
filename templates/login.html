@@ -124,7 +124,7 @@ hr {
 
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="" method="post">
+  <form class="modal-content" action="login" method="post">
     {% csrf_token %}
     {% if err %}
         <div class="alert alert-danger" role="alert">

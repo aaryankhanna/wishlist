@@ -1,5 +1,7 @@
 from django.contrib import admin
-from .models import *
+from tasklist.models import User
+from tasklist.models import Tasks
+
 # Register your models here.
-admin.register(User)
-admin.register(Tasks)
+admin.site.register(User)
+admin.site.register(Tasks)
